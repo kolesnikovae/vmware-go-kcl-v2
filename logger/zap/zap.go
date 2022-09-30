@@ -24,10 +24,10 @@ package zap
 import (
 	"os"
 
-	"github.com/vmware/vmware-go-kcl-v2/logger"
+	"github.com/kolesnikovae/vmware-go-kcl-v2/logger"
 	uzap "go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	lumberjack "gopkg.in/natefinch/lumberjack.v2"
+	"gopkg.in/natefinch/lumberjack.v2"
 )
 
 type ZapLogger struct {

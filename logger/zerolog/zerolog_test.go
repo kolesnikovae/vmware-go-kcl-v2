@@ -1,8 +1,9 @@
 package zerolog
 
 import (
-	"github.com/vmware/vmware-go-kcl-v2/logger"
 	"testing"
+
+	"github.com/kolesnikovae/vmware-go-kcl-v2/logger"
 )
 
 func TestZeroLogLoggerWithConfig(t *testing.T) {

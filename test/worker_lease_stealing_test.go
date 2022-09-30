@@ -1,12 +1,13 @@
 package test
 
 import (
-	chk "github.com/vmware/vmware-go-kcl-v2/clientlibrary/checkpoint"
 	"testing"
 
-	cfg "github.com/vmware/vmware-go-kcl-v2/clientlibrary/config"
-	wk "github.com/vmware/vmware-go-kcl-v2/clientlibrary/worker"
-	"github.com/vmware/vmware-go-kcl-v2/logger"
+	chk "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/checkpoint"
+
+	cfg "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/config"
+	wk "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/worker"
+	"github.com/kolesnikovae/vmware-go-kcl-v2/logger"
 )
 
 func TestLeaseStealing(t *testing.T) {

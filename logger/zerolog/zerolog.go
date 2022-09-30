@@ -23,10 +23,11 @@
 package zerolog
 
 import (
-	"github.com/rs/zerolog"
-	"github.com/vmware/vmware-go-kcl-v2/logger"
-	"gopkg.in/natefinch/lumberjack.v2"
 	"os"
+
+	"github.com/kolesnikovae/vmware-go-kcl-v2/logger"
+	"github.com/rs/zerolog"
+	"gopkg.in/natefinch/lumberjack.v2"
 )
 
 type zeroLogger struct {

@@ -20,20 +20,21 @@ package test
 
 import (
 	"context"
-	chk "github.com/vmware/vmware-go-kcl-v2/clientlibrary/checkpoint"
 	"os"
 	"sync"
 	"testing"
 	"time"
+
+	chk "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/checkpoint"
 
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/kinesis"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	cfg "github.com/vmware/vmware-go-kcl-v2/clientlibrary/config"
-	par "github.com/vmware/vmware-go-kcl-v2/clientlibrary/partition"
-	wk "github.com/vmware/vmware-go-kcl-v2/clientlibrary/worker"
+	cfg "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/config"
+	par "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/partition"
+	wk "github.com/kolesnikovae/vmware-go-kcl-v2/clientlibrary/worker"
 )
 
 func TestWorkerInjectCheckpointer(t *testing.T) {
